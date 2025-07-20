@@ -1,0 +1,100 @@
+body {
+  background-color: #eeeeee;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  background-color: yellow;
+  color: purple;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid red;
+}
+
+.section {
+  padding: 10px;
+  margin: 10px;
+  background-color: white;
+}
+
+.yellow-bar {
+  background-color: yellow;
+  font-weight: bold;
+  text-align: center;
+  padding: 5px;
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.image-row {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.image-row img {
+  width: 45%;
+  height: auto;
+}
+
+iframe {
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  height: 300px;
+}
+
+.form-section {
+  text-align: center;
+  margin-top: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+select {
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #5b9bd5;
+  color: white;
+  border: none;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+th {
+  background-color: blue;
+  color: white;
+  padding: 10px;
+}
+
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid black;
+}
+
+.row1 {
+  background-color: green;
+  color: white;
+}
+
+.row2 {
+  background-color: red;
+  color: white;
+}
